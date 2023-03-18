@@ -1,5 +1,6 @@
 ## Sumsel IT Landing Page
 
+- Build with SvelteKit
 - Node JS v16.16.x
 - NPM v8.11.0
 
@@ -29,6 +30,10 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+### SaSS
+
+Sass folder will be placed in the /src/style/ directory. SaSS will only have base, components, layout and vendors, to add a new vendor please add to vendors directory with \*\_ prefix. and register (@forward) in /src/style/vendors/\_index.scss. (Just follow the current configuration for bootstrap css plugin).
 
 ## Building
 
