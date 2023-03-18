@@ -31,9 +31,29 @@ npm run dev
 npm run dev -- --open
 ```
 
+### Branching
+
+It would be nice if you could add prefix to your branch
+
+```bash
+ssit-<name-of-what-you-add>
+```
+
 ### SaSS
 
-Sass folder will be placed in the /src/style/ directory. SaSS will only have base, components, layout and vendors, to add a new vendor please add to vendors directory with \*\_ prefix. and register (@forward) in /src/style/vendors/\_index.scss. (Just follow the current configuration for bootstrap css plugin).
+Sass folder will be placed in this directory path:
+
+```bash
+/src/style/
+```
+
+SaSS will only have base, components, layout and vendors, to add a new vendor please add to vendors directory with \*\_ prefix. and register (@forward) in
+
+```bash
+/src/style/vendors/\_index.scss
+```
+
+(Just follow the current configuration for bootstrap css plugin).
 
 ## Building
 
