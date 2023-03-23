@@ -1,7 +1,13 @@
+<script>
+	import logo from '$lib/assets/logo/logo.png';
+	import image_1 from '$lib/assets/images/image-1.png';
+	import image_2 from '$lib/assets/images/image-2.png';
+</script>
+
 <nav class="navbar navbar-expand-lg   px-5">
 	<div class="container">
 		<a class="navbar-brand" href="/">
-			<img src="../logo/logo.png" alt="" height="48" />
+			<img src="{logo}" alt="" height="48" />
 			SUMSELIT</a
 		>
 		<!-- <button
@@ -65,7 +71,7 @@
 				<a href="/" class="btn btn-primary btn-large">Gabung Sekarang </a>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-end">
-				<img src="../images/image-1.png" class="img-fluid" alt="" />
+				<img src="{image_1}" class="img-fluid" alt="" />
 			</div>
 		</div>
 	</div>
@@ -82,7 +88,7 @@
 								<span class="sub-title">Keuntungan</span>
 								<h1 class="title">Yang kamu dapat di komuntas ini</h1>
 							</div>
-							<img src="../images/image-2.png" height="161" alt="" />
+							<img src="{image_2}" height="161" alt="" />
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -206,15 +212,15 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<a href="/" class="logo">
-					<img src="../logo/logo.png" height="52" alt=""/>
+					<img src="../logo/logo.png" height="52" alt="" />
 					SUMSELIT
 				</a>
 				<p class="description my-4">
-					<span class="sub-description">SUMSEL IT</span> adalah Wadah penggiat digital Sumatera Selatan adalah sebuah organisasi atau
-					komunitas yang terdiri dari individu-individu yang memiliki minat dan keahlian dalam
-					bidang digital, seperti teknologi informasi, pemasaran digital, desain grafis, dan
-					sebagainya. Tujuan dari wadah ini adalah untuk saling berbagi pengetahuan, pengalaman, dan
-					ide-ide terbaru di bidang digital, serta untuk mengembangkan kemampuan dan kreativitas
+					<span class="sub-description">SUMSEL IT</span> adalah Wadah penggiat digital Sumatera Selatan
+					adalah sebuah organisasi atau komunitas yang terdiri dari individu-individu yang memiliki minat
+					dan keahlian dalam bidang digital, seperti teknologi informasi, pemasaran digital, desain grafis,
+					dan sebagainya. Tujuan dari wadah ini adalah untuk saling berbagi pengetahuan, pengalaman,
+					dan ide-ide terbaru di bidang digital, serta untuk mengembangkan kemampuan dan kreativitas
 					anggotanya.
 				</p>
 				<p class="contact">+628102909320 - Palembang, Sumatera Selatan</p>
