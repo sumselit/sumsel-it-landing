@@ -1,6 +1,6 @@
 <script>
-	import image_1 from '$lib/assets/images/image-1.png';
-	import image_2 from '$lib/assets/images/image-2.png';
+	import image_1 from '$img/image-1.png';
+	import image_2 from '$img/image-2.png';
 </script>
 
 <section id="hero-slider" class="bg-gradient px-5">
@@ -151,4 +151,3 @@
 		</div>
 	</div>
 </section>
-

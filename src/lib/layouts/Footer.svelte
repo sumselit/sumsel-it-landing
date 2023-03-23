@@ -1,12 +1,13 @@
 <script>
 	import logo from '$lib/assets/logo/logo.png';
 </script>
+
 <section id="footer" class="top bg-dark text-white">
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<a href="/" class="logo">
-					<img src="{logo}" height="52" alt="" />
+					<img src={logo} height="52" alt="" />
 					SUMSELIT
 				</a>
 				<p class="description my-4">
