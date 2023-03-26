@@ -66,3 +66,53 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+## Docker
+
+### Docker Dev and Prod
+- If you run docker dev, this action same like `npm run dev`
+- If you run docker prod, this action same like `npm run build`
+- for production build will have two image and container (static and node)
+
+  - If you don't have an image run this first
+  - this will build a docker image
+    - for development mode
+      ```make
+      make build 
+      ```
+    - for deployment production mode
+      ```make
+      make build-prod
+      ```
+
+  - (if you already have an image run this or you can just run this if you don't have image, this will automate pull an image depedency)
+  - this will run the container
+    - for development mode
+      ```make
+      make up 
+      ```
+    - for deployment production mode
+      ```make
+      make up-prod
+      ```
+
+  - run this if you want to stop the container
+    - for development mode
+      ```make
+      make stop
+      ```
+    - for deployment production mode
+      ```make
+      make stop-prod
+      ```
+
+  - run this if you want to delete the container
+    - for development mode
+      ```make
+      make down
+      ```
+    - for deployment production mode
+      ```make
+      make down-prod
+      ```
