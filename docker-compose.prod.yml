@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  sumselit-static:
+    image: sumselit-landing-static
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      target: deploy-static
+    ports:
+      - 3001:80
+
+  sumselit-node:
+    image: sumselit-landing-node
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      target: deploy-node
+    ports:
+      - 3002:3000
